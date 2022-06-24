@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.box-1{
+    height: 500px;
+    width: 100%;
+    background-image:linear-gradient(to bottom left, green,lightgreen,blue);
+    margin-top: 80px;
+}
+.box-2{
+    height: 400px;
+    width: 40%;
+    background-image:linear-gradient(yellow,pink,purple);
+    margin: auto;
+    padding-top: 100px;
+}
+.box-3{
+    height: 250px;
+    width: 80%;
+    background-image:radial-gradient(yellow,orange,red);
+    margin: auto;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 100px 0px 100px 0px;
+    box-shadow: 0px 0px 5px 5px maroon;
+}
+
+.box-3 h1{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.box-3 h1::after{
+    content: "Sanjid Ara";
+    color: white;
+    font-style: italic;
+}
+
+.box-3 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.box-3 p::before{
+    content: "for ";
+    text-transform: capitalize;
+    color: blue;
+}
+.box-3 p::after{
+    content: " info..";
+    text-transform: capitalize;
+    color: blue;
+}
+.box-3 a{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.box-3 a:focus{
+     background-color: cadetblue;
+     font-size: 20px;         
+}
+.box-3 a:active{
+    color: greenyellow;
+}
+
+/* .box-3 a:hover{
+    background-color: red;
+    color: black;
+} */
